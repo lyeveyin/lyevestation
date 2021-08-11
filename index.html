@@ -1,121 +1,376 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh">
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
-<link rel="shortcut icon" href="https://lyeveyin.github.io/lyeve/favicon.ico?v=1628649145866">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://lyeveyin.github.io/lyeve/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea - Atom Feed" href="https://lyeveyin.github.io/lyeve/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
-
-
-    <meta name="description" content="温故而知新" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gridea</title>
+    <meta name="description" content="温故而知新">
+    <link rel="shortcut icon" href="https://lyeveyin.github.io/lyeve.top/media/images/eduifuns.png">
+    <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="https://lyeveyin.github.io/lyeve.top/media/css/icomoon.css">
+    <link rel="stylesheet" href="https://lyeveyin.github.io/lyeve.top/media/css/main.css?v=1628653817496">
   </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://lyeveyin.github.io/lyeve">
-  <img class="avatar" src="https://lyeveyin.github.io/lyeve/images/avatar.png?v=1628649145866" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://lyeveyin.github.io/lyeve/post/hello-gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2018-12-12
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="https://lyeveyin.github.io/lyeve/tag/Jm_fuDZ2S/" class="post-tag">
-            # Gridea
-          </a>
-        
-      </div>
-      
-        <a href="https://lyeveyin.github.io/lyeve/post/hello-gridea/" class="post-feature-image" style="background-image: url('https://lyeveyin.github.io/lyeve/post-images/hello-gridea.png')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<body class="page-body">
+    <!-- skin-white -->
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="https://lyeveyin.github.io/lyeve.top" class="logo-expanded">
+                            <img src="https://lyeveyin.github.io/lyeve.top/images/avatar.png"  style="height:68px" alt="" />
+                        </a>
+                        <a href="https://lyeveyin.github.io/lyeve.top" class="logo-collapsed">
+                            <img src="https://lyeveyin.github.io/lyeve.top/media/images/eduifuns.png" width="40" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </div>
+                </header>
+                <ul id="main-menu" class="main-menu">
+                    <!-- li 加 has-sub 开启分组-->
+                    <li class="has-sub">
+                        <a>
+                            <i class="icon-globe"></i>
+                            <span class="title">个人网站</span>
+                        </a>
+                        <!-- ul li 格式添加子分组-->
+                        <ul>
+                            <li>
+                                <a href="#社交" class="smooth">
+                                    <i class="icon-star"></i>
+                                    <span class="title">社交</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#博客" class="smooth">
+                                    <i class="icon-pencil"></i>
+                                    <span class="title">博客</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#视频" class="smooth">
+                                    <i class="icon-database"></i>
+                                    <span class="title">视频</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#网络工具" class="smooth">
+                            <i class="icon-desktop"></i>
+                            <span class="title">网络工具</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#设计资源" class="smooth">
+                            <i class="icon-graduation-cap"></i>
+                            <span class="title">设计资源</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#安利" class="smooth">
+                            <i class="icon-inbox"></i>
+                            <span class="title">安利</span>
+                        </a>
+                    </li>
+                    
+                    <li class="submit-tag">
+                        <a href="https://lyeveyin.github.io/lyeve.top/about">
+                            <i class="icon-heart"></i>
+                            <span class="title">关于本站</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <nav class="navbar user-info-navbar" role="navigation">
+                <!-- User Info, Notifications and Menu Bar -->
+                <!-- Left links for user info navbar -->
+                <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
-      </div>
-    </article>
-  
-</div>
+            <!-- 今日诗词 -->
+            <div id="poem_content">
+                <h3 id="poem_sentence"></h3><span id="poem_info"></span>
+            </div>
+            <!-- 今日诗词 -->
+            <br />
+            <!-- 在线工具 -->
+            
+            <h4 class="text-gray"><i class="icon-star" style="margin-right: 7px;" id="个人网站"></i>个人网站</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://weibo.com/hyl74/home?wvr=5&amp;sudaref=cn.bing.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://weibo.com/hyl74/home?wvr=5&amp;sudaref=cn.bing.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://tvax3.sinaimg.cn/crop.0.0.996.996.180/9202c2e6ly8gc583997nuj20ro0ro75r.jpg?KID=imgbed,tva&amp;Expires=1628660668&amp;ssig=ItavUNcsWg"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>微博</strong>
+                                </a>
+                                <p class="overflowClip_2">刘在石铁粉</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.instagram.com/lyeve1998/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.instagram.com/lyeve1998/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/s150x150/16230366_997798086987926_217362702803140608_a.jpg?_nc_ht=scontent-nrt1-1.cdninstagram.com&amp;_nc_ohc=gIRyp4HlwIEAX_XEnZQ&amp;edm=ABfd0MgBAAAA&amp;ccb=7-4&amp;oh=74911d2903c3ee238da1e10145827f60&amp;oe=611ACEDB&amp;_nc_sid=7bff83"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>instagram</strong>
+                                </a>
+                                <p class="overflowClip_2">lyeve1998</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            
+            <h4 class="text-gray"><i class="icon-pencil" style="margin-right: 7px;" id="博客"></i>博客</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://lyeveyin.github.io/lyeveblog/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://lyeveyin.github.io/lyeveblog/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://lyeveyin.github.io/lyeveblog.top/images/avatar.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>lyeve</strong>
+                                </a>
+                                <p class="overflowClip_2">我自己</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            
+            <h4 class="text-gray"><i class="icon-database" style="margin-right: 7px;" id="视频"></i>视频</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  avatar=""  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong></strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 在线工具 -->
 
-    
-        <div class="pagination-container">
-  
-  
-</div>
+            <!-- 网络工具 -->
+            
+            <h4 class="text-gray"><i class="icon-desktop" style="margin-right: 7px;" id="网络工具"></i>网络工具件</h4>
+            <div class="row">
+                
+            </div>
+            <br />
+            
+            <!-- END 网络工具 -->
 
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://lyeveyin.github.io/lyeve/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
+            <!-- 设计资源 -->
+            
+            <h4 class="text-gray"><i class="icon-graduation-cap" style="margin-right: 7px;" id="设计资源"></i>设计资源</h4>
+            <div class="row">
+                
+            </div>
+            <br />
+            
+            <!-- END 设计资源-->
 
-      </div>
+            <!-- 安利 -->
+            
+            <h4 class="text-gray"><i class="icon-inbox" style="margin-right: 7px;" id="安利"></i>安利</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://space.bilibili.com/389088?from=search&amp;seid=16231942386212019171', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://space.bilibili.com/389088?from=search&amp;seid=16231942386212019171">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://i0.hdslb.com/bfs/face/c1a82b1338bfb31d1b0905d6b8833e491e8a1dff.jpg@128w_128h_1o.webp"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>KB呆又呆</strong>
+                                </a>
+                                <p class="overflowClip_2">b站游戏区up主</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://space.bilibili.com/2206456?from=search&amp;seid=12633766677836398744', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://space.bilibili.com/2206456?from=search&amp;seid=12633766677836398744">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://i1.hdslb.com/bfs/face/06c233a0136f738f8f54a08770dc7d484ae45081.jpg@128w_128h_1o.webp"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>花少北丶</strong>
+                                </a>
+                                <p class="overflowClip_2">b站游戏区up主</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 安利 -->
+
+
+            <!-- Main Footer -->
+            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+            <footer class="main-footer sticky footer-type-1">
+                <div class="footer-inner">
+                    <!-- Add your copyright text here -->
+                    <div class="footer-text">
+                        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> <span id="busuanzi_container_site_pv" style='display:none'>总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+                    </div>
+                    <div class="go-up">
+                        <a href="#" rel="go-top">
+                            <i class="icon-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
-  </body>
+
+
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    jinrishici.load(function(result) {
+        var sentence = document.querySelector("#poem_sentence")
+        var info = document.querySelector("#poem_info")
+        sentence.innerHTML = result.data.content
+        info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+    });
+    </script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 锚点平滑移动 -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+         //img lazy loaded
+         const observer = lozad();
+         observer.observe();
+
+        $(document).on('click', '.has-sub', function(){
+            var _this = $(this)
+            if(!$(this).hasClass('expanded')) {
+               setTimeout(function(){
+                    _this.find('ul').attr("style","")
+               }, 300);
+              
+            } else {
+                $('.has-sub ul').each(function(id,ele){
+                    var _that = $(this)
+                    if(_this.find('ul')[0] != ele) {
+                        setTimeout(function(){
+                            _that.attr("style","")
+                        }, 300);
+                    }
+                })
+            }
+        })
+        $('.user-info-menu .hidden-sm').click(function(){
+            if($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style","")
+            } else {
+                $('.has-sub.expanded > ul').show()
+            }
+        })
+        $("#main-menu li ul li").click(function() {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
+        });
+        $("a.smooth").click(function(ev) {
+            ev.preventDefault();
+
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
+    </script>
+    <!-- Bottom Scripts -->
+    <script src="https://lyeveyin.github.io/lyeve.top/media/js/bootstrap.min.js"></script>
+    <script src="https://lyeveyin.github.io/lyeve.top/media/js/TweenMax.min.js"></script>
+    <script src="https://lyeveyin.github.io/lyeve.top/media/js/resizeable.js"></script>
+    <script src="https://lyeveyin.github.io/lyeve.top/media/js/xenon-toggles.js"></script>
+    <script src="https://lyeveyin.github.io/lyeve.top/media/js/xenon-custom.js"></script>
+    <script src="https://lyeveyin.github.io/lyeve.top/media/js/lozad.js"></script>
+    <script src="https://lyeveyin.github.io/lyeve.top/media/js/LetterAvatar.js"></script>
+</body>
+
+
+
 </html>
