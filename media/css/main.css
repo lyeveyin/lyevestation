@@ -333,13 +333,13 @@ body {
         font-size: 12px
     }
 }
-
+/* 侧边栏 */
 .sidebar-menu {
     display: table-cell;
     position: relative;
-    width: 280px;
-    background: #2c2e2f;
-    z-index: 1
+    width: 200px;
+    background: #000;
+    z-index: 2
 }
 
 .sidebar-menu .logo-env {
